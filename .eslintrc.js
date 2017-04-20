@@ -7,6 +7,8 @@ module.exports = {
     "react",
   ],
 
+  "parser": "babel-eslint",
+
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true,
@@ -16,7 +18,6 @@ module.exports = {
   },
 
   "rules": {
-    "import/prefer-default-export": "off",
     "jsx-a11y/no-static-element-interactions": "off",
     "linebreak-style": "off",
     "no-use-before-define": ["error", { "functions": false }],
