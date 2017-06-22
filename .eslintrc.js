@@ -19,8 +19,8 @@ module.exports = {
     'no-use-before-define': ['error', { functions: false }],
     'react/jsx-filename-extension': 'off',
     'react/no-unused-prop-types': 'off',
-    'max-len': [{ code: 80, comments: 80 }],
-    'arrow-parens': 'as-needed',
+    'max-len': ['error', 80],
+    'arrow-parens': ['error', 'as-needed'],
   },
   settings: {
     'import/resolver': {
