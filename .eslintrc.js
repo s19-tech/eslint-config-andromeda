@@ -20,6 +20,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/no-unused-prop-types': 'off',
     'max-len': [{ code: 80, comments: 80 }],
+    'arrow-parens': 'as-needed',
   },
   settings: {
     'import/resolver': {
