@@ -1,7 +1,16 @@
 {
   "name": "eslint-config-andromeda",
-  "version": "0.0.1",
-  "author": "github.com/pchennz",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Peter Chen",
+      "url": "https://github.com/pchennz"
+    },
+    {
+      "name": "Elliot Theis",
+      "url": "https://github.com/elliottheis"
+    }
+  ],
   "description": "Andromeda project ESlint config",
   "main": ".eslintrc.js",
   "dependencies": {
@@ -15,6 +24,7 @@
     "eslint-plugin-react": "^6.10.3"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": "6.10",
+    "npm": "5"
   }
 }
