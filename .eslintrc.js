@@ -1,33 +1,29 @@
 module.exports = {
-  "extends": [
-    "eslint-config-airbnb",
-  ].map(require.resolve),
+  extends: ['eslint-config-airbnb'].map(require.resolve),
 
-  "plugins": [
-    "react",
-    "babel"
-  ],
+  plugins: ['react', 'babel'],
 
-  "parser": "babel-eslint",
+  parser: 'babel-eslint',
 
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true,
-      "modules": true,
-      "experimentalObjectRestSpread": true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+      modules: true,
+      experimentalObjectRestSpread: true,
     },
   },
 
-  "rules": {
-    "jsx-a11y/no-static-element-interactions": "off",
-    "linebreak-style": "off",
-    "no-use-before-define": ["error", { "functions": false }],
-    "react/jsx-filename-extension": "off",
-    "react/no-unused-prop-types": "off",
+  rules: {
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'linebreak-style': 'off',
+    'no-use-before-define': ['error', { functions: false }],
+    'react/jsx-filename-extension': 'off',
+    'react/no-unused-prop-types': 'off',
+    'max-len': [{ code: 80, comments: 80 }],
   },
-  "settings": {
-    "import/resolver": {
-      "babel-module": {}
-    }
-  }
+  settings: {
+    'import/resolver': {
+      'babel-module': {},
+    },
+  },
 };
