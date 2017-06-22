@@ -1,7 +1,16 @@
 {
   "name": "eslint-config-andromeda",
   "version": "0.0.1",
-  "author": "github.com/pchennz",
+  "contributors": [
+    {
+      "name": "Peter Chen",
+      "url": "https://github.com/pchennz"
+    },
+    {
+      "name": "Elliot Theis",
+      "url": "https://github.com/elliottheis"
+    }
+  ],
   "description": "Andromeda project ESlint config",
   "main": ".eslintrc.js",
   "dependencies": {
