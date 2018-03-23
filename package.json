@@ -1,5 +1,5 @@
 {
-  "name": "s19-eslint-config",
+  "name": "eslint-config-andromeda",
   "version": "1.2.0",
   "author": "github.com/lone-star",
   "description": "S19 project ESlint config",
