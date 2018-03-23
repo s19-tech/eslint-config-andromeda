@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "name": "eslint-config-andromeda",
   "version": "1.2.0",
   "contributors": [
@@ -12,7 +13,14 @@
     }
   ],
   "description": "Andromeda project ESlint config",
+=======
+  "name": "s19-eslint-config",
+  "version": "0.0.1",
+  "author": "github.com/lone-star",
+  "description": "S19 project ESlint config",
+>>>>>>> Stashed changes
   "main": ".eslintrc.js",
+  "private": true,
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
