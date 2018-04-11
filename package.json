@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-andromeda",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "github.com/lone-star",
   "description": "S19 project ESlint config",
   "main": ".eslintrc.js",
@@ -8,7 +8,7 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
-    "eslint-import-resolver-babel-module": "^3.0.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
