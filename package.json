@@ -6,11 +6,11 @@
   "main": ".eslintrc.js",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
+    "eslint": "^5.14.1",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-import-resolver-babel-module": "^4.0.0",
     "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3"
   },
